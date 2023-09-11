@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+body{
+   
+    font-family: 'Atma', cursive;
+    font-size: 22px;
+    background-color: rgb(22, 23, 24);
+    
+}
+
+#principal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(186, 187, 189);
+    padding: 5px;
+    margin: 5px;
+}
+
+#head{
+    border-radius: 5px;
+    width: 100%;
+    height: 100px;
+    border: 0px solid rgb(202, 202, 202);
+    
+
+}
+#card{
+
+    text-align:left;
+    border-radius: 5px;
+    background-color: rgb(229, 237, 248);
+    width: 75%;
+    height: 98px;
+    border: 0px solid rgb(154, 247, 195);
+    float: left;
+
+}
+#imagen{
+    border-radius: 5px;
+    background-image:url("https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25%;
+    float:right;
+    height: 98px;
+    border: 0px solid rgb(154, 247, 195);
+  
+    
+}
+#center{
+    border-radius: 5px;
+    
+    width: 100%;
+    height: 250px;
+   
+}
+#center_left{
+    border-radius: 5px;
+
+    width: 50%;
+    height: 250px;
+    
+    float: left;
+}
+#center_right{
+    text-align: center;
+    border-radius: 5px;
+    
+    width: 50%;
+    height: 250px;
+
+    float: left;
+}
+#foot{
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(239, 240, 241);
+    width: 100%;
+    height: 50px;
+}
+
+.my-button{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    color:white;
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input{
+    height: 20px;
+    border: 1px solid #c6c7c6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+ 
+}
+
+.my-button:hover {
+    background-color: #1dc726;
+  }
+  .my-button:active {
+    background-color: #3e8e41;
+  }
